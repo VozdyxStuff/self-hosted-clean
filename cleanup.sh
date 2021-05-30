@@ -1,2 +1,2 @@
 cd ../../
-rm -Rf ${{ github.event.repository.name }} _PipelineMapping _temp _tool
+rm -Rf $REPO_NAME _PipelineMapping _temp _tool
