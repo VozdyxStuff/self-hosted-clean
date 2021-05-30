@@ -1,0 +1,8 @@
+name: 'Clean Workspace'
+author: 'VozdyxDev'
+description: 'Deletes all files in the work directory.'
+runs:
+  using: 'bash'
+  main: 'main.sh'
+  post: 'cleanup.sh'
+ 
