@@ -1,10 +1,10 @@
 name: 'Clean self-hosted Workspace'
-icon: 'check-circle'
-color: 'gray-dark'
 author: 'VozdyxDev'
 description: 'Deletes all files in the work directory.'
 runs:
   using: 'node16'
   main: 'main.js'
   post: 'cleanup.js'
- 
+ branding:
+  icon: 'check-circle'
+  color: 'gray-dark'
