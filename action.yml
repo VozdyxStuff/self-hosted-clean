@@ -1,4 +1,4 @@
-name: 'Clean Workspace'
+name: 'Clean self-hosted Workspace'
 author: 'VozdyxDev'
 description: 'Deletes all files in the work directory.'
 runs:
