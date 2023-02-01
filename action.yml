@@ -5,6 +5,6 @@ runs:
   using: 'node16'
   main: 'main.js'
   post: 'cleanup.js'
- branding:
+branding:
   icon: 'check-circle'
   color: 'gray-dark'
