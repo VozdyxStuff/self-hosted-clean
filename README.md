@@ -4,7 +4,7 @@ By default, all files and directories remain on self-hosted machines.
 ## Example usage
 
 ```yaml
-- uses: vozdyxstuff/self-hosted-clean@v1
+- uses: vozdyxstuff/self-hosted-clean@latest
   env:
     REPO_NAME: ${{ github.event.repository.name }}
 ```
@@ -18,7 +18,7 @@ jobs:
     runs-on: self-hosted
     steps:
 
-    - uses: vozdyxstuff/self-hosted-clean@v1
+    - uses: vozdyxstuff/self-hosted-clean@latest
       env:
         REPO_NAME: ${{ github.event.repository.name }}
 
